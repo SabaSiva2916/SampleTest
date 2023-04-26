@@ -7,6 +7,10 @@ public class Sample {
 
 	public static void main(String[] args) {
 		System.out.println("Hello java");
+		String s = "java";
+		System.out.println(s.length());
+		System.out.println(s.charAt(1));
+		System.out.println(s.isEmpty());
 		List<Integer> li = new ArrayList<Integer>();
 		li.add(10);
 		li.add(20);
@@ -16,6 +20,7 @@ public class Sample {
 
 		System.out.println(li.size());
 		System.out.println(li.get(1));
+
 
 	}
 }
